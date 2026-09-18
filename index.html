@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Digital - Hering | Grupo Spaini Alves</title>
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Ícone FontAwesome para redes sociais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO DA LOJA -->
+    <header class="header-container">
+        <div class="logo-area">
+            <img src="Logo.png" alt="Logo Hering - Grupo Spaini Alves" class="logo-img">
+            <span class="info">Temos muito mais na loja física! Confira com a nossa equipe de atendimento as opções de cores, tamanhos e outros modelos disponíveis</span>
+        </div>
+        <nav class="nav-menu">
+            <a href="#feminino">Feminino</a>
+            <a href="#masculino">Masculino</a>
+        </nav>
+    </header>
+
+    <!-- BARRA DE FILTRO -->
+    <section class="filter-section">
+        <div class="filter-container">
+            <label for="select-produto"><i class="fa-solid fa-filter"></i> Filtrar por Produto:</label>
+            <select id="select-produto" onchange="filtrarProdutos()">
+                <option value="todos">Todos os Produtos</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- CONTEÚDO PRINCIPAL (CATÁLOGO) -->
+    <main class="catalog-main">
+        
+        <!-- SEÇÃO FEMININO -->
+        <section id="feminino" class="gender-section">
+            <h2 class="section-title">Coleção Feminina</h2>
+            <div class="products-grid" id="grid-feminino">
+                <!-- Cards renderizados dinamicamente via JS -->
+            </div>
+        </section>
+
+        <!-- SEÇÃO MASCULINO -->
+        <section id="masculino" class="gender-section">
+            <h2 class="section-title">Coleção Masculina</h2>
+            <div class="products-grid" id="grid-masculino">
+                <!-- Cards renderizados dinamicamente via JS -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ DA LOJA -->
+    <footer class="footer-container">
+        <div class="footer-content">
+            
+            <!-- GRUPO E REDES -->
+            <div class="footer-brand">
+                <h3>Grupo Spaini Alves</h3>
+                <p class="brand-sub">Representante Oficial Hering</p>
+                <div class="social-links">
+                    <p><i class="fa-brands fa-instagram"></i> Siga nossas lojas:</p>
+                    <a href="https://instagram.com/heringcampogrande" target="_blank">@heringcampogrande</a>
+                    <a href="https://instagram.com/heringdourados" target="_blank">@heringdourados</a>
+                </div>
+            </div>
+<!-- LOJAS E CONTATOS -->
+            <div class="footer-stores">
+                <h4>Nossas Lojas</h4>
+                <div class="stores-grid">
+                    <div class="store-card">
+                        <strong>Loja 14 de Julho:</strong> (67) 99911-5672<br>
+                        R. 14 de Julho,2238, Centro - Campo Grande, MS, Brasil
+                    </div>
+                    <div class="store-card">
+                        <strong>Loja Shopping Campo Grande:</strong> (67) 99870-1626<br>
+                        Av. Afonso Pena, 490, Loja 1911, Royal Park - Campo Grande, MS, Brasil
+                    </div>
+                    <div class="store-card">
+                        <strong>Loja Shopping Avenida:</strong> (67) 99925-7605<br>
+                        Av. Marcelino Pires, 3600, Vila Helena - Dourados, MS, Brasil
+                    </div>
+                    <div class="store-card">
+                        <strong>Loja Shopping Norte Sul:</strong> (67) 99655-9265<br>
+                        Av. Ernesto Geisel, 2300, Jardim Joquei Club - Campo Grande, MS, Brasil
+                    </div>
+                    <div class="store-card">
+                        <strong>Loja Weimar:</strong> (67) 99643-3393<br>
+                        Av. Weimar Gonçalves Torres, 2175, Centro - Dourados, MS, Brasil
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; Catálogo Digital | Desenvolvido por Grupo Spaini Alves</p>
+        </div>
+    </footer>
+
+    <!-- CARREGAMENTO DOS DADOS E SCRIPTS -->
+    <script src="produtos_data.js"></script>
+    <script>
+        function formatarPreco(valor) {
+            return parseFloat(valor).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+        }
+
+        function criarCardProduto(p) {
+            const temPromo = p.Promoçao !== null && p.Promoçao !== "" && p.Promoçao !== undefined && !isNaN(p.Promoçao);
+            
+            let precoHTML = "";
+            let badgePromo = "";
+
+            if (temPromo) {
+                badgePromo = `<span class="badge-promo">OFERTA</span>`;
+                precoHTML = `
+                    <div class="price-box">
+                        <span class="price-old">De: ${formatarPreco(p.Preço_original)}</span>
+                        <span class="price-promo">Por: ${formatarPreco(p.Promoçao)}</span>
+                    </div>
+                `;
+            } else {
+                precoHTML = `
+                    <div class="price-box">
+                        <span class="price-regular">Por: ${formatarPreco(p.Preço_original)}</span>
+                    </div>
+                `;
+            }
+
+            // Removido o nome do produto (${p.Produto}) do cabeçalho do card
+            return `
+                <div class="product-card" data-produto="${p.Produto}">
+                    ${badgePromo}
+                    <div class="card-img-wrapper">
+                        <img src="Imagens_produtos/${p.ID_produto}.png" alt="${p.Descrição}" onerror="this.src='https://via.placeholder.com/300x380?text=Imagem+Indisponivel'">
+                    </div>
+                    <div class="card-info">
+                        <span class="product-id">Ref: ${p.ID_produto}</span>
+                        <p class="product-desc">${p.Descrição}</p>
+                        ${precoHTML}
+                    </div>
+                </div>
+            `;
+        }
+
+        function carregarCatalogo() {
+            const gridFem = document.getElementById('grid-feminino');
+            const gridMasc = document.getElementById('grid-masculino');
+            const selectProduto = document.getElementById('select-produto');
+
+            gridFem.innerHTML = "";
+            gridMasc.innerHTML = "";
+
+            const produtosUnicos = new Set();
+
+            produtosData.forEach(p => {
+                produtosUnicos.add(p.Produto);
+                const cardHTML = criarCardProduto(p);
+
+                if (String(p.Genero).toLowerCase() === 'feminino') {
+                    gridFem.innerHTML += cardHTML;
+                } else {
+                    gridMasc.innerHTML += cardHTML;
+                }
+            });
+
+            Array.from(produtosUnicos).sort().forEach(nome => {
+                const opt = document.createElement('option');
+                opt.value = nome;
+                opt.textContent = nome;
+                selectProduto.appendChild(opt);
+            });
+        }
+
+        function filtrarProdutos() {
+            const filtro = document.getElementById('select-produto').value;
+            const cards = document.querySelectorAll('.product-card');
+
+            cards.forEach(card => {
+                const nomeProd = card.getAttribute('data-produto');
+                if (filtro === 'todos' || nomeProd === filtro) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', carregarCatalogo);
+    </script>
+</body>
+</html>

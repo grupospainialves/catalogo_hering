@@ -1,0 +1,325 @@
+/* RESET E CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+:root {
+    --hering-blue: #002B49;
+    --hering-blue-light: #004272;
+    --hering-red: #D9383A;
+    --bg-light: #F8F9FA;
+    --card-bg: #FFFFFF;
+    --text-color: #2D3748;
+    --text-muted: #718096;
+    --border-color: #E2E8F0;
+}
+
+body {
+    background-color: var(--bg-light);
+    color: var(--text-color);
+}
+
+/* CABEÇALHO */
+.header-container {
+    background-color: var(--hering-blue);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+/* Alteração: Filtro CSS para tornar a imagem da Logo totalmente branca */
+.logo-img {
+    height: 55px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}
+
+.nav-menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 25px;
+    font-size: 1.05rem;
+    transition: color 0.2s;
+}
+
+.nav-menu a:hover {
+    color: #A0AEC0;
+}
+
+/* BARRA DE FILTRO */
+.filter-section {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px 40px;
+}
+
+.filter-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.filter-container label {
+    font-weight: 600;
+    color: var(--hering-blue);
+}
+
+.filter-container select {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    font-size: 0.95rem;
+    outline: none;
+    cursor: pointer;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.catalog-main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.gender-section {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: var(--hering-blue);
+    border-bottom: 3px solid var(--hering-blue);
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* GRID DE PRODUTOS */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+/* CARD DO PRODUTO */
+.product-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.badge-promo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--hering-red);
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.card-img-wrapper {
+    width: 100%;
+    height: 320px;
+    background-color: #F0F4F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Exibe a imagem inteira sem cortar */;
+}
+
+.card-info {
+    padding: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.product-name {
+    font-size: 1.05rem;
+    color: var(--hering-blue);
+    margin-bottom: 8px;
+}
+
+.product-desc {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+/* PREÇOS */
+.price-box {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.price-regular {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--hering-blue);
+}
+
+.price-old {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-decoration: line-through;
+}
+
+.price-promo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--hering-red);
+}
+
+/* RODAPÉ - CENTRALIZADO E COM FONTE MENOR */
+.footer-container {
+    background-color: var(--hering-blue);
+    color: #FFFFFF;
+    padding-top: 30px;
+    margin-top: 60px;
+    font-size: 0.82rem; /* Tamanho de fonte reduzido */
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-brand h3 {
+    font-size: 1.25rem;
+    margin-bottom: 2px;
+}
+
+.brand-sub {
+    font-size: 0.82rem;
+    color: #A0AEC0;
+    margin-bottom: 12px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row; /* Alinha tudo na mesma linha na horizontal */
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre o texto e os links */
+    flex-wrap: wrap; /* Garante ajuste automático se a tela do telemóvel for pequena */
+}
+
+.social-links p {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.social-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-stores {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-stores h4 {
+    margin-bottom: 12px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stores-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 850px;
+}
+
+.store-card {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    text-align: center;
+    min-width: 220px;
+}
+
+.footer-bottom {
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 12px;
+    font-size: 0.75rem;
+    color: #A0AEC0;
+}
+/* ID / REFERÊNCIA DO PRODUTO PARA O VENDEDOR */
+.product-id {
+    font-size: 0.75rem;     /* Tamanho de fonte pequeno */
+    color: #A0AEC0;        /* Cinza claro e discreto */
+    font-weight: 500;
+    margin-bottom: 4px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.info{
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: normal; /* Use 500 ou 600 para maior destaque */
+    font-size: 14px;  /* Opcional: defina o tamanho do texto */
+}
