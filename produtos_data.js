@@ -10,7 +10,8 @@ const produtosData = [
     "135": 53,
     "434": 13,
     "471": 11,
-    "675": 9
+    "675": 9,
+    "Obs": 189.99
   },
   {
     "ID_produto": "4AUCR0BEN",
@@ -23,7 +24,8 @@ const produtosData = [
     "135": 41,
     "434": 12,
     "471": 12,
-    "675": 7
+    "675": 7,
+    "Obs": 49.99
   },
   {
     "ID_produto": "H9VH1ASN",
@@ -36,7 +38,8 @@ const produtosData = [
     "135": 19,
     "434": 9,
     "471": 21,
-    "675": 15
+    "675": 15,
+    "Obs": 139.99
   },
   {
     "ID_produto": "LZ7BHMJSI",
@@ -49,7 +52,8 @@ const produtosData = [
     "135": 2,
     "434": 15,
     "471": 21,
-    "675": 12
+    "675": 12,
+    "Obs": 129.99
   },
   {
     "ID_produto": "49FPN10EN",
@@ -62,7 +66,8 @@ const produtosData = [
     "135": 202,
     "434": 176,
     "471": 61,
-    "675": 63
+    "675": 63,
+    "Obs": NaN
   },
   {
     "ID_produto": "4HFPN0AEN",
@@ -75,7 +80,8 @@ const produtosData = [
     "135": 88,
     "434": 39,
     "471": 26,
-    "675": 48
+    "675": 48,
+    "Obs": NaN
   },
   {
     "ID_produto": "036H3VEN",
@@ -88,7 +94,8 @@ const produtosData = [
     "135": 26,
     "434": 18,
     "471": 29,
-    "675": 33
+    "675": 33,
+    "Obs": NaN
   },
   {
     "ID_produto": "N3A7AX7EN",
@@ -101,7 +108,8 @@ const produtosData = [
     "135": 28,
     "434": 15,
     "471": 5,
-    "675": 28
+    "675": 28,
+    "Obs": NaN
   },
   {
     "ID_produto": "0111N1007S",
@@ -114,7 +122,8 @@ const produtosData = [
     "135": 38,
     "434": 16,
     "471": 18,
-    "675": 6
+    "675": 6,
+    "Obs": NaN
   },
   {
     "ID_produto": "K5WU4XSI",
@@ -127,7 +136,8 @@ const produtosData = [
     "135": 22,
     "434": 16,
     "471": 26,
-    "675": 17
+    "675": 17,
+    "Obs": NaN
   },
   {
     "ID_produto": "HBXC1GSN",
@@ -140,7 +150,8 @@ const produtosData = [
     "135": 29,
     "434": 27,
     "471": 37,
-    "675": 26
+    "675": 26,
+    "Obs": NaN
   },
   {
     "ID_produto": "H9V31BSN",
@@ -153,7 +164,8 @@ const produtosData = [
     "135": 46,
     "434": 26,
     "471": 14,
-    "675": 21
+    "675": 21,
+    "Obs": NaN
   },
   {
     "ID_produto": "H9FK1CSN",
@@ -166,7 +178,8 @@ const produtosData = [
     "135": 2,
     "434": 17,
     "471": 14,
-    "675": 9
+    "675": 9,
+    "Obs": NaN
   },
   {
     "ID_produto": "H9FL1CSN",
@@ -179,7 +192,8 @@ const produtosData = [
     "135": 29,
     "434": 8,
     "471": 12,
-    "675": 6
+    "675": 6,
+    "Obs": NaN
   },
   {
     "ID_produto": "H9UN1ASN",
@@ -187,12 +201,13 @@ const produtosData = [
     "Descrição": "Calca Fem Jeans Algodao",
     "Genero": "Feminino",
     "Preço_original": 269.99,
-    "Promoçao": NaN,
+    "Promoçao": 189.99,
     "134": 11,
     "135": 9,
     "434": 7,
     "471": 17,
-    "675": 14
+    "675": 14,
+    "Obs": 189.99
   },
   {
     "ID_produto": "0B5DN10EN",
@@ -205,7 +220,8 @@ const produtosData = [
     "135": 13,
     "434": 16,
     "471": 10,
-    "675": 11
+    "675": 11,
+    "Obs": NaN
   },
   {
     "ID_produto": "K5UR1ZSI",
@@ -218,7 +234,8 @@ const produtosData = [
     "135": 32,
     "434": 17,
     "471": 17,
-    "675": 24
+    "675": 24,
+    "Obs": NaN
   },
   {
     "ID_produto": "4F8727JEN",
@@ -231,7 +248,8 @@ const produtosData = [
     "135": 32,
     "434": 30,
     "471": 16,
-    "675": 25
+    "675": 25,
+    "Obs": NaN
   },
   {
     "ID_produto": "4H2VYXLEN",
@@ -244,7 +262,8 @@ const produtosData = [
     "135": 6,
     "434": 18,
     "471": 17,
-    "675": 13
+    "675": 13,
+    "Obs": 59.989999999999995
   },
   {
     "ID_produto": "4HBDNMCEN",
@@ -257,7 +276,8 @@ const produtosData = [
     "135": 10,
     "434": 13,
     "471": 15,
-    "675": 11
+    "675": 11,
+    "Obs": 49.989999999999995
   },
   {
     "ID_produto": "4AP7RX8EN",
@@ -270,7 +290,8 @@ const produtosData = [
     "135": 3,
     "434": 26,
     "471": 23,
-    "675": 16
+    "675": 16,
+    "Obs": NaN
   },
   {
     "ID_produto": "N1TEM2H07S",
@@ -283,7 +304,8 @@ const produtosData = [
     "135": 22,
     "434": 37,
     "471": 14,
-    "675": 24
+    "675": 24,
+    "Obs": NaN
   },
   {
     "ID_produto": "K6TNNMCSI",
@@ -296,7 +318,8 @@ const produtosData = [
     "135": 5,
     "434": 17,
     "471": 16,
-    "675": 19
+    "675": 19,
+    "Obs": NaN
   },
   {
     "ID_produto": "HFH6YX8SN",
@@ -304,12 +327,13 @@ const produtosData = [
     "Descrição": "Blusa Mm Fem Viscose",
     "Genero": "Feminino",
     "Preço_original": 179.99,
-    "Promoçao": 79.99,
+    "Promoçao": 89.99,
     "134": 33,
     "135": 8,
     "434": 20,
     "471": 21,
-    "675": 7
+    "675": 7,
+    "Obs": 89.99
   },
   {
     "ID_produto": "K5TD1ZSI",
@@ -322,7 +346,8 @@ const produtosData = [
     "135": 6,
     "434": 8,
     "471": 16,
-    "675": 9
+    "675": 9,
+    "Obs": NaN
   },
   {
     "ID_produto": "HFH6N10EN",
@@ -330,12 +355,13 @@ const produtosData = [
     "Descrição": "Blusa Mm Fem Viscose",
     "Genero": "Feminino",
     "Preço_original": 179.99,
-    "Promoçao": 79.99,
+    "Promoçao": 89.99,
     "134": 33,
     "135": 78,
     "434": 10,
     "471": 15,
-    "675": 16
+    "675": 16,
+    "Obs": 89.99
   },
   {
     "ID_produto": "K6CL7VSI",
@@ -348,7 +374,8 @@ const produtosData = [
     "135": 13,
     "434": 13,
     "471": 12,
-    "675": 7
+    "675": 7,
+    "Obs": NaN
   },
   {
     "ID_produto": "K5AB1ESI",
@@ -361,7 +388,8 @@ const produtosData = [
     "135": 0,
     "434": 10,
     "471": 6,
-    "675": 4
+    "675": 4,
+    "Obs": NaN
   },
   {
     "ID_produto": "K6RPN10SI",
@@ -374,7 +402,8 @@ const produtosData = [
     "135": 17,
     "434": 16,
     "471": 17,
-    "675": 17
+    "675": 17,
+    "Obs": NaN
   },
   {
     "ID_produto": "K5WL6ESI",
@@ -387,7 +416,8 @@ const produtosData = [
     "135": 7,
     "434": 11,
     "471": 12,
-    "675": 10
+    "675": 10,
+    "Obs": 149.99
   },
   {
     "ID_produto": "K0VUAX7SI",
@@ -400,7 +430,8 @@ const produtosData = [
     "135": 21,
     "434": 27,
     "471": 35,
-    "675": 16
+    "675": 16,
+    "Obs": NaN
   },
   {
     "ID_produto": "KFU81DSN",
@@ -413,7 +444,8 @@ const produtosData = [
     "135": 75,
     "434": 24,
     "471": 24,
-    "675": 22
+    "675": 22,
+    "Obs": NaN
   },
   {
     "ID_produto": "KFTJN10SI",
@@ -426,7 +458,8 @@ const produtosData = [
     "135": 6,
     "434": 7,
     "471": 10,
-    "675": 10
+    "675": 10,
+    "Obs": NaN
   },
   {
     "ID_produto": "KFU81FSN",
@@ -439,7 +472,8 @@ const produtosData = [
     "135": 37,
     "434": 11,
     "471": 11,
-    "675": 12
+    "675": 12,
+    "Obs": NaN
   },
   {
     "ID_produto": "KFTGN10SI",
@@ -452,7 +486,8 @@ const produtosData = [
     "135": 29,
     "434": 14,
     "471": 11,
-    "675": 19
+    "675": 19,
+    "Obs": NaN
   },
   {
     "ID_produto": "77UF1CEN",
@@ -465,7 +500,8 @@ const produtosData = [
     "135": 9,
     "434": 6,
     "471": 5,
-    "675": 16
+    "675": 16,
+    "Obs": NaN
   },
   {
     "ID_produto": "SC9VN10SI",
@@ -473,12 +509,13 @@ const produtosData = [
     "Descrição": "Top Fem Malha- disp. somente na loja do shopping Campo Grande",
     "Genero": "Feminino",
     "Preço_original": 89.99,
-    "Promoçao": NaN,
+    "Promoçao": 109.99,
     "134": 0,
     "135": 11,
     "434": 0,
     "471": 0,
-    "675": 0
+    "675": 0,
+    "Obs": 109.99
   },
   {
     "ID_produto": "KCGA1ASN",
@@ -491,7 +528,8 @@ const produtosData = [
     "135": 15,
     "434": 8,
     "471": 10,
-    "675": 8
+    "675": 8,
+    "Obs": NaN
   },
   {
     "ID_produto": "KH0V1BSN",
@@ -504,7 +542,8 @@ const produtosData = [
     "135": 11,
     "434": 6,
     "471": 7,
-    "675": 6
+    "675": 6,
+    "Obs": 169.99
   },
   {
     "ID_produto": "4ATMNMCEN",
@@ -517,7 +556,8 @@ const produtosData = [
     "135": 14,
     "434": 2,
     "471": 1,
-    "675": 2
+    "675": 2,
+    "Obs": NaN
   },
   {
     "ID_produto": "4H1NN10EN",
@@ -530,7 +570,8 @@ const produtosData = [
     "135": 16,
     "434": 5,
     "471": 11,
-    "675": 9
+    "675": 9,
+    "Obs": 59.989999999999995
   },
   {
     "ID_produto": "K5TT11FSI",
@@ -543,7 +584,8 @@ const produtosData = [
     "135": 16,
     "434": 0,
     "471": 0,
-    "675": 0
+    "675": 0,
+    "Obs": NaN
   },
   {
     "ID_produto": "LZFJ1ASI",
@@ -556,7 +598,8 @@ const produtosData = [
     "135": 15,
     "434": 0,
     "471": 0,
-    "675": 0
+    "675": 0,
+    "Obs": 179.99
   },
   {
     "ID_produto": "4FFZN10EN",
@@ -569,7 +612,8 @@ const produtosData = [
     "135": 11,
     "434": 0,
     "471": 0,
-    "675": 0
+    "675": 0,
+    "Obs": 49.989999999999995
   },
   {
     "ID_produto": "LZCF1BSI",
@@ -582,7 +626,8 @@ const produtosData = [
     "135": 17,
     "434": 11,
     "471": 6,
-    "675": 9
+    "675": 9,
+    "Obs": 129.99
   },
   {
     "ID_produto": "KTVG4ASI",
@@ -595,7 +640,8 @@ const produtosData = [
     "135": 9,
     "434": 2,
     "471": 9,
-    "675": 17
+    "675": 17,
+    "Obs": NaN
   },
   {
     "ID_produto": "KTNUAX7SI",
@@ -608,7 +654,8 @@ const produtosData = [
     "135": 75,
     "434": 45,
     "471": 102,
-    "675": 189
+    "675": 189,
+    "Obs": NaN
   },
   {
     "ID_produto": "015MN0A00S",
@@ -621,7 +668,8 @@ const produtosData = [
     "135": 2,
     "434": 12,
     "471": 3,
-    "675": -2
+    "675": -2,
+    "Obs": NaN
   },
   {
     "ID_produto": "KG99AX7SI",
@@ -634,7 +682,8 @@ const produtosData = [
     "135": 39,
     "434": 12,
     "471": 6,
-    "675": 8
+    "675": 8,
+    "Obs": NaN
   },
   {
     "ID_produto": "LZJ6NMCSI",
@@ -647,7 +696,8 @@ const produtosData = [
     "135": 37,
     "434": 14,
     "471": 12,
-    "675": 12
+    "675": 12,
+    "Obs": NaN
   },
   {
     "ID_produto": "K48R2BSI",
@@ -660,7 +710,8 @@ const produtosData = [
     "135": 32,
     "434": 22,
     "471": 23,
-    "675": 24
+    "675": 24,
+    "Obs": 149.99
   },
   {
     "ID_produto": "K48FAX7SI",
@@ -673,7 +724,8 @@ const produtosData = [
     "135": 14,
     "434": 12,
     "471": 14,
-    "675": 9
+    "675": 9,
+    "Obs": NaN
   },
   {
     "ID_produto": "0227NATEN",
@@ -686,7 +738,8 @@ const produtosData = [
     "135": 108,
     "434": 40,
     "471": 42,
-    "675": 19
+    "675": 19,
+    "Obs": NaN
   },
   {
     "ID_produto": "H1UC2ASN",
@@ -699,7 +752,8 @@ const produtosData = [
     "135": 13,
     "434": 7,
     "471": 18,
-    "675": 20
+    "675": 20,
+    "Obs": NaN
   },
   {
     "ID_produto": "H1MV2DSN",
@@ -712,7 +766,8 @@ const produtosData = [
     "135": 44,
     "434": 11,
     "471": 17,
-    "675": 16
+    "675": 16,
+    "Obs": NaN
   },
   {
     "ID_produto": "H1WN1ASN",
@@ -725,7 +780,8 @@ const produtosData = [
     "135": 13,
     "434": 13,
     "471": 11,
-    "675": 25
+    "675": 25,
+    "Obs": NaN
   },
   {
     "ID_produto": "H1VV1ASN",
@@ -738,7 +794,8 @@ const produtosData = [
     "135": 38,
     "434": 13,
     "471": 13,
-    "675": 49
+    "675": 49,
+    "Obs": NaN
   },
   {
     "ID_produto": "HD3F1DSN",
@@ -751,7 +808,8 @@ const produtosData = [
     "135": 29,
     "434": 8,
     "471": 9,
-    "675": 9
+    "675": 9,
+    "Obs": NaN
   },
   {
     "ID_produto": "KTNYNATSI",
@@ -764,7 +822,8 @@ const produtosData = [
     "135": 37,
     "434": 13,
     "471": 18,
-    "675": 23
+    "675": 23,
+    "Obs": NaN
   },
   {
     "ID_produto": "LZ17HGTSI",
@@ -777,7 +836,8 @@ const produtosData = [
     "135": 20,
     "434": 13,
     "471": 8,
-    "675": 20
+    "675": 20,
+    "Obs": 159.99
   },
   {
     "ID_produto": "02TQMD3EN",
@@ -790,7 +850,8 @@ const produtosData = [
     "135": 29,
     "434": 29,
     "471": 4,
-    "675": 28
+    "675": 28,
+    "Obs": 44.99
   },
   {
     "ID_produto": "4EZ9M2HEN",
@@ -803,7 +864,8 @@ const produtosData = [
     "135": 1,
     "434": 19,
     "471": 2,
-    "675": 7
+    "675": 7,
+    "Obs": NaN
   },
   {
     "ID_produto": "KCFRAX7SN",
@@ -816,7 +878,8 @@ const produtosData = [
     "135": 14,
     "434": 4,
     "471": 6,
-    "675": 7
+    "675": 7,
+    "Obs": 79.99
   },
   {
     "ID_produto": "H4CTN10SN",
@@ -824,12 +887,13 @@ const produtosData = [
     "Descrição": "Bermuda Masc Sarja",
     "Genero": "Masculino",
     "Preço_original": 179.99,
-    "Promoçao": 79.99,
+    "Promoçao": 89.99,
     "134": 0,
     "135": 2,
     "434": 9,
     "471": 9,
-    "675": 7
+    "675": 7,
+    "Obs": 89.99
   },
   {
     "ID_produto": "4KB3H26EN",
@@ -837,12 +901,13 @@ const produtosData = [
     "Descrição": "Camiseta Mm Masc Pique",
     "Genero": "Masculino",
     "Preço_original": 179.99,
-    "Promoçao": 79.99,
+    "Promoçao": 109.99,
     "134": 6,
     "135": 18,
     "434": 6,
     "471": 9,
-    "675": 11
+    "675": 11,
+    "Obs": 109.99000000000001
   },
   {
     "ID_produto": "4F8727VEN",
@@ -855,7 +920,8 @@ const produtosData = [
     "135": 41,
     "434": 40,
     "471": 4,
-    "675": 43
+    "675": 43,
+    "Obs": 34.99
   },
   {
     "ID_produto": "4AL6M2HEN",
@@ -863,12 +929,13 @@ const produtosData = [
     "Descrição": "Regata Fem Ribana",
     "Genero": "Feminino",
     "Preço_original": 89.99,
-    "Promoçao": 59.99,
+    "Promoçao": 44.99,
     "134": 86,
     "135": 130,
     "434": 98,
     "471": 89,
-    "675": 117
+    "675": 117,
+    "Obs": 44.99
   },
   {
     "ID_produto": "KYQPAXTSN",
@@ -881,7 +948,8 @@ const produtosData = [
     "135": 21,
     "434": 14,
     "471": 14,
-    "675": 18
+    "675": 18,
+    "Obs": NaN
   },
   {
     "ID_produto": "K0XX2XSI",
@@ -894,7 +962,8 @@ const produtosData = [
     "135": 3,
     "434": 4,
     "471": 0,
-    "675": 4
+    "675": 4,
+    "Obs": NaN
   },
   {
     "ID_produto": "K4ANN0ASI",
@@ -907,7 +976,8 @@ const produtosData = [
     "135": 19,
     "434": 2,
     "471": 12,
-    "675": 18
+    "675": 18,
+    "Obs": NaN
   },
   {
     "ID_produto": "LZ481ASI",
@@ -920,7 +990,8 @@ const produtosData = [
     "135": 25,
     "434": 16,
     "471": 12,
-    "675": 12
+    "675": 12,
+    "Obs": NaN
   },
   {
     "ID_produto": "036HA2FEN",
@@ -933,7 +1004,8 @@ const produtosData = [
     "135": 15,
     "434": 17,
     "471": 17,
-    "675": 13
+    "675": 13,
+    "Obs": NaN
   },
   {
     "ID_produto": "3M11AX7EN",
@@ -946,7 +1018,8 @@ const produtosData = [
     "135": 63,
     "434": 26,
     "471": 1,
-    "675": 21
+    "675": 21,
+    "Obs": NaN
   },
   {
     "ID_produto": "3M2AAZ2EN",
@@ -959,7 +1032,8 @@ const produtosData = [
     "135": 8,
     "434": 10,
     "471": 9,
-    "675": 14
+    "675": 14,
+    "Obs": NaN
   },
   {
     "ID_produto": "LZ7YN10SI",
@@ -972,7 +1046,8 @@ const produtosData = [
     "135": 26,
     "434": 11,
     "471": 16,
-    "675": 17
+    "675": 17,
+    "Obs": NaN
   },
   {
     "ID_produto": "N3A7HMJEN",
@@ -985,7 +1060,8 @@ const produtosData = [
     "135": 36,
     "434": -3,
     "471": 6,
-    "675": 30
+    "675": 30,
+    "Obs": NaN
   },
   {
     "ID_produto": "C4LB1BSN",
@@ -998,7 +1074,8 @@ const produtosData = [
     "135": 21,
     "434": 0,
     "471": 0,
-    "675": 0
+    "675": 0,
+    "Obs": NaN
   },
   {
     "ID_produto": "KB9F1ASN",
@@ -1011,7 +1088,8 @@ const produtosData = [
     "135": 25,
     "434": 10,
     "471": 5,
-    "675": 13
+    "675": 13,
+    "Obs": 74.99
   },
   {
     "ID_produto": "KB9F1BSN",
@@ -1019,12 +1097,13 @@ const produtosData = [
     "Descrição": "Cinto Masc Nao Textil",
     "Genero": "Masculino",
     "Preço_original": 119.99,
-    "Promoçao": 74.99,
+    "Promoçao": 79.99,
     "134": 9,
     "135": 2,
     "434": 10,
     "471": 5,
-    "675": 15
+    "675": 15,
+    "Obs": 79.99
   },
   {
     "ID_produto": "KGA71BSN",
@@ -1037,7 +1116,8 @@ const produtosData = [
     "135": 16,
     "434": 9,
     "471": 7,
-    "675": 14
+    "675": 14,
+    "Obs": NaN
   },
   {
     "ID_produto": "77LT1AEN",
@@ -1050,7 +1130,8 @@ const produtosData = [
     "135": 26,
     "434": 6,
     "471": 10,
-    "675": 19
+    "675": 19,
+    "Obs": NaN
   },
   {
     "ID_produto": "KFKE1ASN",
@@ -1063,7 +1144,8 @@ const produtosData = [
     "135": 6,
     "434": 9,
     "471": 8,
-    "675": 12
+    "675": 12,
+    "Obs": NaN
   },
   {
     "ID_produto": "76044PEN",
@@ -1076,7 +1158,8 @@ const produtosData = [
     "135": 4,
     "434": 7,
     "471": 12,
-    "675": 7
+    "675": 7,
+    "Obs": NaN
   },
   {
     "ID_produto": "7613MK7EN",
@@ -1089,7 +1172,8 @@ const produtosData = [
     "135": 0,
     "434": 9,
     "471": 2,
-    "675": 4
+    "675": 4,
+    "Obs": NaN
   },
   {
     "ID_produto": "7CYGN10EN",
@@ -1102,7 +1186,8 @@ const produtosData = [
     "135": 11,
     "434": 13,
     "471": 10,
-    "675": 10
+    "675": 10,
+    "Obs": NaN
   },
   {
     "ID_produto": "KMD21ASI",
@@ -1115,7 +1200,8 @@ const produtosData = [
     "135": 37,
     "434": 14,
     "471": 7,
-    "675": 17
+    "675": 17,
+    "Obs": 79.99
   },
   {
     "ID_produto": "KGYW2ASI",
@@ -1128,7 +1214,8 @@ const produtosData = [
     "135": 20,
     "434": 12,
     "471": 16,
-    "675": 8
+    "675": 8,
+    "Obs": NaN
   },
   {
     "ID_produto": "HB91N10SN",
@@ -1141,7 +1228,8 @@ const produtosData = [
     "135": 20,
     "434": 3,
     "471": 11,
-    "675": 5
+    "675": 5,
+    "Obs": NaN
   },
   {
     "ID_produto": "KFT81WSI",
@@ -1154,7 +1242,8 @@ const produtosData = [
     "135": 10,
     "434": 4,
     "471": 3,
-    "675": 4
+    "675": 4,
+    "Obs": NaN
   },
   {
     "ID_produto": "K5V91ZSI",
@@ -1167,7 +1256,8 @@ const produtosData = [
     "135": 9,
     "434": 9,
     "471": 14,
-    "675": 7
+    "675": 7,
+    "Obs": NaN
   },
   {
     "ID_produto": "4H1VN0AEN",
@@ -1180,7 +1270,8 @@ const produtosData = [
     "135": 59,
     "434": 16,
     "471": 53,
-    "675": 19
+    "675": 19,
+    "Obs": NaN
   },
   {
     "ID_produto": "K5CX1ZSI",
@@ -1193,7 +1284,8 @@ const produtosData = [
     "135": 18,
     "434": 7,
     "471": 11,
-    "675": 8
+    "675": 8,
+    "Obs": NaN
   },
   {
     "ID_produto": "KHZGAXTSN",
@@ -1206,7 +1298,8 @@ const produtosData = [
     "135": 4,
     "434": 10,
     "471": 4,
-    "675": 14
+    "675": 14,
+    "Obs": 149.99
   },
   {
     "ID_produto": "HAQ3N10EN",
@@ -1214,11 +1307,12 @@ const produtosData = [
     "Descrição": "Vestido Curto Fem Viscose",
     "Genero": "Feminino",
     "Preço_original": 199.99,
-    "Promoçao": 79.99,
+    "Promoçao": 99.99,
     "134": 17,
     "135": 16,
     "434": 7,
     "471": 3,
-    "675": 12
+    "675": 12,
+    "Obs": 99.99
   }
 ];
