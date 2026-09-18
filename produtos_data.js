@@ -1084,7 +1084,7 @@ const produtosData = [
     "Descrição": "Pijama Mm Masc Malha",
     "Genero": "Masculino",
     "Preço_original": 139.99,
-    "Promoçao": 49.99,
+    "Promoçao": NaN,
     "134": 1,
     "135": 0,
     "434": 9,
