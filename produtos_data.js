@@ -29,7 +29,7 @@ const produtosData = [
   },
   {
     "ID_produto": "H9VH1ASN",
-    "Produto": "Calcas Jeans",
+    "Produto": "Calcas",
     "Descrição": "Calca Fem Jeans Algodao",
     "Genero": "Feminino",
     "Preço_original": 199.99,
@@ -141,7 +141,7 @@ const produtosData = [
   },
   {
     "ID_produto": "HBXC1GSN",
-    "Produto": "Shorts Jeans",
+    "Produto": "Shorts",
     "Descrição": "Shorts Fem Jeans Algodao",
     "Genero": "Feminino",
     "Preço_original": 199.99,
@@ -155,7 +155,7 @@ const produtosData = [
   },
   {
     "ID_produto": "H9V31BSN",
-    "Produto": "Calcas Jeans",
+    "Produto": "Calcas",
     "Descrição": "Calca Fem Jeans C Elastano",
     "Genero": "Feminino",
     "Preço_original": 199.99,
@@ -169,7 +169,7 @@ const produtosData = [
   },
   {
     "ID_produto": "H9FK1CSN",
-    "Produto": "Calcas Jeans",
+    "Produto": "Calcas",
     "Descrição": "Calca Skinny Fem Jeans C Elastano",
     "Genero": "Feminino",
     "Preço_original": 239.99,
@@ -183,7 +183,7 @@ const produtosData = [
   },
   {
     "ID_produto": "H9FL1CSN",
-    "Produto": "Calcas Jeans",
+    "Produto": "Calcas",
     "Descrição": "Calca Fem Jeans C Elastano",
     "Genero": "Feminino",
     "Preço_original": 239.99,
@@ -197,7 +197,7 @@ const produtosData = [
   },
   {
     "ID_produto": "H9UN1ASN",
-    "Produto": "Calcas Jeans",
+    "Produto": "Calcas",
     "Descrição": "Calca Fem Jeans Algodao",
     "Genero": "Feminino",
     "Preço_original": 269.99,
@@ -1065,7 +1065,7 @@ const produtosData = [
   },
   {
     "ID_produto": "C4LB1BSN",
-    "Produto": "Bermudas Jeans",
+    "Produto": "Bermudas",
     "Descrição": "Bermuda Masc Jeans C Elastano- disp. somente na loja do shopping Campo Grande",
     "Genero": "Masculino",
     "Preço_original": 169.99,
