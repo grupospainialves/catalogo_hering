@@ -224,20 +224,6 @@ const produtosData = [
     "Obs": 179.99
   },
   {
-    "ID_produto": "K5TD1ZSI",
-    "Produto": "Blusas",
-    "Descrição": "Blusa Fem Linho",
-    "Genero": "Feminino",
-    "Preço_original": 159.99,
-    "Promoçao": NaN,
-    "134": 16,
-    "135": 5,
-    "434": 7,
-    "471": 16,
-    "675": 9,
-    "Obs": NaN
-  },
-  {
     "ID_produto": "HFH6N10EN",
     "Produto": "Blusas",
     "Descrição": "Blusa Mm Fem Viscose",
@@ -263,20 +249,6 @@ const produtosData = [
     "434": 13,
     "471": 12,
     "675": 7,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "K5AB1ESI",
-    "Produto": "Blusas",
-    "Descrição": "Blusa Fem Leve",
-    "Genero": "Feminino",
-    "Preço_original": 159.99,
-    "Promoçao": NaN,
-    "134": 6,
-    "135": 0,
-    "434": 10,
-    "471": 16,
-    "675": 13,
     "Obs": NaN
   },
   {
@@ -333,20 +305,6 @@ const produtosData = [
     "434": 24,
     "471": 24,
     "675": 22,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "KFTJN10SI",
-    "Produto": "Calcinhas",
-    "Descrição": "Calcinha Fem Malha",
-    "Genero": "Feminino",
-    "Preço_original": 59.99,
-    "Promoçao": NaN,
-    "134": 13,
-    "135": 6,
-    "434": 7,
-    "471": 10,
-    "675": 10,
     "Obs": NaN
   },
   {
@@ -434,20 +392,6 @@ const produtosData = [
     "Obs": 269.99
   },
   {
-    "ID_produto": "4ATMNMCEN",
-    "Produto": "Regatas",
-    "Descrição": "Regata Fem Ribana",
-    "Genero": "Feminino",
-    "Preço_original": 139.99,
-    "Promoçao": NaN,
-    "134": 4,
-    "135": 14,
-    "434": 2,
-    "471": 1,
-    "675": 2,
-    "Obs": NaN
-  },
-  {
     "ID_produto": "4H1NN10EN",
     "Produto": "Camisetas",
     "Descrição": "Blusa Mm Fem Meia Malha",
@@ -460,48 +404,6 @@ const produtosData = [
     "471": 11,
     "675": 9,
     "Obs": 99.99
-  },
-  {
-    "ID_produto": "K5TT11FSI",
-    "Produto": "Regatas",
-    "Descrição": "Camiseta Regata Fem Linho- disp. somente na lj shopping CG",
-    "Genero": "Feminino",
-    "Preço_original": 159.99,
-    "Promoçao": NaN,
-    "134": 0,
-    "135": 15,
-    "434": 0,
-    "471": 0,
-    "675": 0,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "LZFJ1ASI",
-    "Produto": "Bermudas",
-    "Descrição": "Bermuda Masc Tecido Plano- disp. somente na lj shopping CG",
-    "Genero": "Masculino",
-    "Preço_original": 199.99,
-    "Promoçao": 179.99,
-    "134": 0,
-    "135": 15,
-    "434": 0,
-    "471": 0,
-    "675": 0,
-    "Obs": 199.99
-  },
-  {
-    "ID_produto": "4FFZN10EN",
-    "Produto": "Camisetas",
-    "Descrição": "Camiseta Mm Masc Malha- disp. somente na lj shopping CG",
-    "Genero": "Masculino",
-    "Preço_original": 89.99,
-    "Promoçao": 49.989999999999995,
-    "134": 0,
-    "135": 11,
-    "434": 0,
-    "471": 0,
-    "675": 0,
-    "Obs": 89.99
   },
   {
     "ID_produto": "LZCF1BSI",
@@ -543,34 +445,6 @@ const produtosData = [
     "434": 43,
     "471": 99,
     "675": 156,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "015MN0A00S",
-    "Produto": "Regatas",
-    "Descrição": "Camiseta Regata Masc Ribana",
-    "Genero": "Masculino",
-    "Preço_original": 69.99,
-    "Promoçao": NaN,
-    "134": 13,
-    "135": 2,
-    "434": 12,
-    "471": 3,
-    "675": -3,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "KG99AX7SI",
-    "Produto": "Camisetas",
-    "Descrição": "Camiseta Mm Masc Malha",
-    "Genero": "Masculino",
-    "Preço_original": 199.99,
-    "Promoçao": NaN,
-    "134": 7,
-    "135": 11,
-    "434": 11,
-    "471": 6,
-    "675": 7,
     "Obs": NaN
   },
   {
@@ -728,34 +602,6 @@ const produtosData = [
     "Obs": 239.99
   },
   {
-    "ID_produto": "KCFRAX7SN",
-    "Produto": "Pijamas",
-    "Descrição": "Pijama Mm Fem Malha",
-    "Genero": "Feminino",
-    "Preço_original": 139.99,
-    "Promoçao": 79.99,
-    "134": 4,
-    "135": 14,
-    "434": 3,
-    "471": 3,
-    "675": 4,
-    "Obs": 139.99
-  },
-  {
-    "ID_produto": "H4CTN10SN",
-    "Produto": "Bermudas",
-    "Descrição": "Bermuda Masc Sarja",
-    "Genero": "Masculino",
-    "Preço_original": 179.99,
-    "Promoçao": 89.99,
-    "134": 0,
-    "135": 2,
-    "434": 9,
-    "471": 5,
-    "675": 6,
-    "Obs": 179.99
-  },
-  {
     "ID_produto": "4AL6M2HEN",
     "Produto": "Regatas",
     "Descrição": "Regata Fem Ribana",
@@ -781,20 +627,6 @@ const produtosData = [
     "434": 12,
     "471": 13,
     "675": 18,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "K0XX2XSI",
-    "Produto": "Camisas",
-    "Descrição": "Camisa Masc Tecido Plano",
-    "Genero": "Masculino",
-    "Preço_original": 199.99,
-    "Promoçao": NaN,
-    "134": 7,
-    "135": 3,
-    "434": 4,
-    "471": 0,
-    "675": 4,
     "Obs": NaN
   },
   {
@@ -840,20 +672,6 @@ const produtosData = [
     "Obs": NaN
   },
   {
-    "ID_produto": "3M2AAZ2EN",
-    "Produto": "Polos",
-    "Descrição": "Camisa Polo Mm Masc Malha",
-    "Genero": "Masculino",
-    "Preço_original": 99.99,
-    "Promoçao": NaN,
-    "134": 14,
-    "135": 5,
-    "434": 7,
-    "471": 9,
-    "675": 14,
-    "Obs": NaN
-  },
-  {
     "ID_produto": "LZ7YN10SI",
     "Produto": "Polos",
     "Descrição": "Camisa Polo Mm Masc Pique",
@@ -879,20 +697,6 @@ const produtosData = [
     "434": -3,
     "471": 5,
     "675": 29,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "C4LB1BSN",
-    "Produto": "Bermudas",
-    "Descrição": "Bermuda Masc Jeans C Elastano- disp. somente na lj shopping CG",
-    "Genero": "Masculino",
-    "Preço_original": 169.99,
-    "Promoçao": NaN,
-    "134": 0,
-    "135": 19,
-    "434": 0,
-    "471": 0,
-    "675": 0,
     "Obs": NaN
   },
   {
@@ -952,48 +756,6 @@ const produtosData = [
     "Obs": NaN
   },
   {
-    "ID_produto": "KFKE1ASN",
-    "Produto": "Cuecas",
-    "Descrição": "Cueca Masc Malha",
-    "Genero": "Masculino",
-    "Preço_original": 79.99,
-    "Promoçao": NaN,
-    "134": 5,
-    "135": 6,
-    "434": 8,
-    "471": 7,
-    "675": 11,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "76044PEN",
-    "Produto": "Pijamas",
-    "Descrição": "Pijama Ml Masc Malha",
-    "Genero": "Masculino",
-    "Preço_original": 189.99,
-    "Promoçao": NaN,
-    "134": 7,
-    "135": 4,
-    "434": 7,
-    "471": 12,
-    "675": 7,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "7613MK7EN",
-    "Produto": "Pijamas",
-    "Descrição": "Pijama Mm Masc Malha",
-    "Genero": "Masculino",
-    "Preço_original": 139.99,
-    "Promoçao": NaN,
-    "134": 1,
-    "135": 0,
-    "434": 9,
-    "471": 2,
-    "675": 4,
-    "Obs": NaN
-  },
-  {
     "ID_produto": "7CYGN10EN",
     "Produto": "Pijamas",
     "Descrição": "Pijama Mm Fem Malha",
@@ -1050,34 +812,6 @@ const produtosData = [
     "Obs": NaN
   },
   {
-    "ID_produto": "KFT81WSI",
-    "Produto": "Lencos",
-    "Descrição": "Lenco Fem Textil",
-    "Genero": "Feminino",
-    "Preço_original": 89.99,
-    "Promoçao": NaN,
-    "134": 4,
-    "135": 8,
-    "434": 1,
-    "471": 1,
-    "675": 3,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "K5V91ZSI",
-    "Produto": "Camisas",
-    "Descrição": "Camisa Fem Linho",
-    "Genero": "Feminino",
-    "Preço_original": 239.99,
-    "Promoçao": NaN,
-    "134": 22,
-    "135": 9,
-    "434": 8,
-    "471": 12,
-    "675": 7,
-    "Obs": NaN
-  },
-  {
     "ID_produto": "4H1VN0AEN",
     "Produto": "Camisetas",
     "Descrição": "Camiseta Mm Fem Super Cotton",
@@ -1106,20 +840,6 @@ const produtosData = [
     "Obs": NaN
   },
   {
-    "ID_produto": "KHZGAXTSN",
-    "Produto": "Vestidos",
-    "Descrição": "Vestido Fem Viscose",
-    "Genero": "Feminino",
-    "Preço_original": 299.99,
-    "Promoçao": 149.99,
-    "134": 7,
-    "135": 4,
-    "434": 10,
-    "471": 4,
-    "675": 14,
-    "Obs": 299.99
-  },
-  {
     "ID_produto": "HAQ3N10EN",
     "Produto": "Vestidos",
     "Descrição": "Vestido Curto Fem Viscose",
@@ -1134,34 +854,6 @@ const produtosData = [
     "Obs": 199.99
   },
   {
-    "ID_produto": "0241EACEN",
-    "Produto": "Camisetas",
-    "Descrição": "Blusa Mm Fem Meia Malha",
-    "Genero": "Feminino",
-    "Preço_original": 69.99,
-    "Promoçao": 39.99,
-    "134": 1,
-    "135": 4,
-    "434": 4,
-    "471": 9,
-    "675": 9,
-    "Obs": 69.99
-  },
-  {
-    "ID_produto": "0241LNHEN",
-    "Produto": "Camisetas",
-    "Descrição": "Blusa Mm Fem Meia Malha",
-    "Genero": "Feminino",
-    "Preço_original": 79.99,
-    "Promoçao": 34.99,
-    "134": 0,
-    "135": 0,
-    "434": 13,
-    "471": 1,
-    "675": 2,
-    "Obs": 79.99
-  },
-  {
     "ID_produto": "02TQMD3EN",
     "Produto": "Camisetas",
     "Descrição": "Camiseta Mm Fem Malha Com Elastano",
@@ -1174,48 +866,6 @@ const produtosData = [
     "471": 3,
     "675": 28,
     "Obs": 89.99
-  },
-  {
-    "ID_produto": "4AKMNM2EN",
-    "Produto": "Regatas",
-    "Descrição": "Blusa Sm Fem Ribana",
-    "Genero": "Feminino",
-    "Preço_original": 59.99,
-    "Promoçao": 29.990000000000002,
-    "134": 1,
-    "135": 10,
-    "434": 1,
-    "471": 14,
-    "675": 0,
-    "Obs": 59.99
-  },
-  {
-    "ID_produto": "4EZ9M2HEN",
-    "Produto": "Camisetas",
-    "Descrição": "Blusa Mm Fem Meia Malha",
-    "Genero": "Feminino",
-    "Preço_original": 69.99,
-    "Promoçao": NaN,
-    "134": 0,
-    "135": 1,
-    "434": 19,
-    "471": 2,
-    "675": 7,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "4EZVNMCEN",
-    "Produto": "Camisetas",
-    "Descrição": "Blusa Mm Fem Ribana",
-    "Genero": "Feminino",
-    "Preço_original": 79.99,
-    "Promoçao": 29.99,
-    "134": 0,
-    "135": 51,
-    "434": 5,
-    "471": 11,
-    "675": 4,
-    "Obs": 79.99
   },
   {
     "ID_produto": "4F8727VEN",
@@ -1260,20 +910,6 @@ const produtosData = [
     "Obs": 99.99
   },
   {
-    "ID_produto": "4HB51BEN",
-    "Produto": "Camisetas",
-    "Descrição": "Blusa Fem Meia Malha",
-    "Genero": "Feminino",
-    "Preço_original": 119.99,
-    "Promoçao": 69.99,
-    "134": 2,
-    "135": 0,
-    "434": 0,
-    "471": 4,
-    "675": 8,
-    "Obs": 119.99
-  },
-  {
     "ID_produto": "4KB3H26EN",
     "Produto": "Camisetas",
     "Descrição": "Camiseta Mm Masc Pique",
@@ -1300,34 +936,6 @@ const produtosData = [
     "471": 9,
     "675": 16,
     "Obs": 179.98999999999995
-  },
-  {
-    "ID_produto": "K0MTN0ASI",
-    "Produto": "Bermudas",
-    "Descrição": "Bermuda Fem Sarja C Elastano",
-    "Genero": "Feminino",
-    "Preço_original": 159.99,
-    "Promoçao": 69.99,
-    "134": 0,
-    "135": 0,
-    "434": 1,
-    "471": 6,
-    "675": 1,
-    "Obs": 159.99
-  },
-  {
-    "ID_produto": "K6MX6USI",
-    "Produto": "Shorts",
-    "Descrição": "Shorts Fem Peachtouch",
-    "Genero": "Feminino",
-    "Preço_original": 239.99,
-    "Promoçao": 149.99,
-    "134": 8,
-    "135": 0,
-    "434": 5,
-    "471": 8,
-    "675": 16,
-    "Obs": 239.99
   },
   {
     "ID_produto": "LZ7BN10SI",
@@ -1470,20 +1078,6 @@ const produtosData = [
     "Obs": NaN
   },
   {
-    "ID_produto": "0199AFPEN",
-    "Produto": "Regatas",
-    "Descrição": "Camiseta Regata Masc Malha",
-    "Genero": "Masculino",
-    "Preço_original": 49.99,
-    "Promoçao": NaN,
-    "134": 12,
-    "135": 4,
-    "434": 14,
-    "471": 15,
-    "675": 15,
-    "Obs": NaN
-  },
-  {
     "ID_produto": "4AJEW18EN",
     "Produto": "Regatas",
     "Descrição": "Camiseta Regata Masc Ribana",
@@ -1496,20 +1090,6 @@ const produtosData = [
     "471": 14,
     "675": 15,
     "Obs": NaN
-  },
-  {
-    "ID_produto": "140MN0AEN",
-    "Produto": "Camisetas",
-    "Descrição": "Camiseta Mm Masc Malha- disp. somente na lj shopping Norte Sul",
-    "Genero": "Masculino",
-    "Preço_original": 79.99,
-    "Promoçao": 49.989999999999995,
-    "134": 0,
-    "135": 0,
-    "434": 0,
-    "471": 58,
-    "675": 0,
-    "Obs": 79.99
   },
   {
     "ID_produto": "4ANYN0AEN",
@@ -1552,20 +1132,6 @@ const produtosData = [
     "471": 12,
     "675": 12,
     "Obs": 239.99
-  },
-  {
-    "ID_produto": "K5AP1ZSN",
-    "Produto": "Vestidos",
-    "Descrição": "Vestido Midi Fem Linho",
-    "Genero": "Feminino",
-    "Preço_original": 299.99,
-    "Promoçao": 149.99,
-    "134": 7,
-    "135": 23,
-    "434": 2,
-    "471": 10,
-    "675": 12,
-    "Obs": 299.99
   },
   {
     "ID_produto": "KMD2RX8SI",
@@ -1635,20 +1201,6 @@ const produtosData = [
     "434": 10,
     "471": 13,
     "675": 12,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "7CE71UEN",
-    "Produto": "Pijamas",
-    "Descrição": "Pijama Ml Fem Malha",
-    "Genero": "Feminino",
-    "Preço_original": 239.99,
-    "Promoçao": NaN,
-    "134": 0,
-    "135": 1,
-    "434": 6,
-    "471": 11,
-    "675": 4,
     "Obs": NaN
   },
   {
@@ -1722,34 +1274,6 @@ const produtosData = [
     "Obs": NaN
   },
   {
-    "ID_produto": "KFT81XSI",
-    "Produto": "Lencos",
-    "Descrição": "Lenco Fem Textil",
-    "Genero": "Feminino",
-    "Preço_original": 69.99,
-    "Promoçao": NaN,
-    "134": 2,
-    "135": 6,
-    "434": 4,
-    "471": 3,
-    "675": 3,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "77UCN10EN",
-    "Produto": "Cuecas",
-    "Descrição": "Kit Com 3 Cuecas Boxer Masc Malha",
-    "Genero": "Masculino",
-    "Preço_original": 119.99,
-    "Promoçao": NaN,
-    "134": 0,
-    "135": 4,
-    "434": 4,
-    "471": 3,
-    "675": 8,
-    "Obs": NaN
-  },
-  {
     "ID_produto": "KFR213WSI",
     "Produto": "Bones",
     "Descrição": "Bone Fem Textil",
@@ -1789,20 +1313,6 @@ const produtosData = [
     "434": 13,
     "471": 10,
     "675": 13,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "K43NN0ASI",
-    "Produto": "Camisas",
-    "Descrição": "Camisa Ml Masc Tecido Plano",
-    "Genero": "Masculino",
-    "Preço_original": 179.99,
-    "Promoçao": NaN,
-    "134": 7,
-    "135": 3,
-    "434": 4,
-    "471": 11,
-    "675": 12,
     "Obs": NaN
   },
   {
@@ -1873,20 +1383,6 @@ const produtosData = [
     "434": 19,
     "471": 29,
     "675": 23,
-    "Obs": NaN
-  },
-  {
-    "ID_produto": "H1WN1CSN",
-    "Produto": "Calcas",
-    "Descrição": "Calca Masc Adulto Jeans",
-    "Genero": "Masculino",
-    "Preço_original": 219.99,
-    "Promoçao": NaN,
-    "134": 9,
-    "135": 0,
-    "434": 2,
-    "471": 9,
-    "675": 10,
     "Obs": NaN
   }
 ];
